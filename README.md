@@ -9,15 +9,25 @@
             -look at rooms available
             -book a room if available
         --Different types of user models ( add later)
-        --
-        --
+        
+        
 
 
 ## DATABASE
     --Create new database
     --create tables according to specification
         --Users
+            -id int 
+            -first_name char
+            -last_name
+            -email
+            -user_name
+            -password
+            -priviledges
         --Rooms
+            -id int
+            -roomName varchar(255)
+            -availability
     --Connect database to front end
 
 ## VIEWS
@@ -28,7 +38,7 @@
         -Single Room Page
         -Availability calendar
 
-## Routes / Controllers
+## ROUTES / CONTROLLERS
     --Set up Routing
         - '/' => 'home'
         - '/register' => 'registration page'
